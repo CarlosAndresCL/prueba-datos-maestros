@@ -1,0 +1,46 @@
+:root {
+    font-family: system-ui, sans-serif;
+    color: #1f2937;
+    background: #f3f4f6;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+.contenedor { max-width: 860px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+.barra { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.barra h1 { font-size: 1.3rem; margin: 0; }
+
+.tarjeta { background: #fff; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+.tarjeta h2 { margin: 0 0 1rem; font-size: 1.05rem; }
+.rejilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+
+.campo { display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.9rem; }
+.campo label { font-weight: 600; }
+.campo select, .campo input { padding: 0.5rem; border: 1px solid #d1d5db; border-radius: 8px; font-size: 0.95rem; }
+.campo select:disabled { background: #f3f4f6; color: #9ca3af; }
+.solo-lectura { padding: 0.5rem; background: #eef2ff; border-radius: 8px; }
+
+.boton { background: #2563eb; color: #fff; border: 0; border-radius: 8px; padding: 0.7rem 1.2rem; font-size: 1rem; cursor: pointer; }
+.boton:disabled { opacity: 0.6; cursor: not-allowed; }
+.boton-sec { background: #fff; color: #374151; border: 1px solid #d1d5db; border-radius: 8px; padding: 0.7rem 1.2rem; font-size: 1rem; cursor: pointer; }
+
+.aviso-error { background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1rem; }
+.aviso-error ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+.aviso-ok { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; border-radius: 8px; padding: 1rem; margin-bottom: 1rem;}
+
+.fila-busqueda { display: flex; gap: 0.75rem; align-items: flex-end; flex-wrap: wrap; }
+.fila-busqueda .campo { flex: 1; min-width: 220px; }
+
+.acciones { display: flex; gap: 0.75rem; }
+
+.tabla-scroll { overflow-x: auto; }
+.tabla { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.tabla th, .tabla td { text-align: left; padding: 0.5rem; border-bottom: 1px solid #e5e7eb; white-space: nowrap; }
+
+.resumen { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem 1rem; font-size: 0.9rem; }
+.resumen div { display: flex; flex-direction: column; background: #f9fafb; border-radius: 8px; padding: 0.5rem 0.75rem; }
+.resumen span { color: #6b7280; font-size: 0.8rem; }
+
+.caja { border: 1px dashed #d1d5db; border-radius: 10px; padding: 1rem; margin-top: 1rem; }
+.caja h3 { margin: 0 0 0.75rem; font-size: 0.95rem; }
+.nota { color: #6b7280; font-size: 0.85rem; margin: 0 0 1rem; }
