@@ -2,7 +2,7 @@
 
 Prototipo funcional para la creación de SKU en **dos etapas**. El Usuario 1 crea la solicitud, el Usuario 2 completa **el mismo registro** y todo queda en una base consolidada con ID, fechas, estado y trazabilidad.
 
-**Autor:** Carlos Andrés Calderón Leiva
+**Autor:** Carlos Andrés Calderón Leiva<br>
 **Correo:** calderonleivacarlosandres@gmail.com
 
 ## Tecnologías
